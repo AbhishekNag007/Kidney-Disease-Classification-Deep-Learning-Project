@@ -45,3 +45,38 @@ Now,
 ```bash
 open up you local host and port
 ```
+
+## MLflow
+
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+##### cmd
+- mlflow ui
+
+
+### dagshub
+[dagshub](https://dagshub.com)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/AbhishekNag007/Kidney-Disease-Classification-Deep-Learning-Project.mlflow \
+MLFLOW_TRACKING_USERNAME=AbhishekNag007 \
+MLFLOW_TRACKING_PASSWORD=2973e83d8aa80974eb004d828d372468dc9ede81 \
+python script.py
+
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/AbhishekNag007/Kidney-Disease-Classification-Deep-Learning-Project.mlflow
+
+export MLFLOW_TRACKING_USERNAME=AbhishekNag007
+
+export MLFLOW_TRACKING_PASSWORD=2973e83d8aa80974eb004d828d372468dc9ede81
+
+```
+
+```bash
+$env:MLFLOW_TRACKING_URI="https://dagshub.com/AbhishekNag007/Kidney-Disease-Classification-Deep-Learning-Project.mlflow"
+$env:MLFLOW_TRACKING_USERNAME="AbhishekNag007"
+$env:MLFLOW_TRACKING_PASSWORD="2973e83d8aa80974eb004d828d372468dc9ede81"
+```
